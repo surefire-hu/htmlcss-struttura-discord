@@ -82,3 +82,63 @@ div button[type="button"] {
     flex-direction: row;
 }
 
+.debug div.section-box:nth-child(2) {
+    background-color: #d3d3d3;
+}
+
+.debug div.section-box:nth-child(2) .right-box{
+    order:-1;
+}
+
+.debug div.box2:first-child,
+.debug div.box2:last-child {
+    background-color: white;
+}
+
+.debug .box3 {
+    background-color: #d3d3d3;
+}
+
+.debug div.green-box {
+    background-color: #228b22;
+    height: 930px;
+}
+
+.debug div.green-box {
+    height: 935px;
+    border: 3px dashed black;
+}
+
+.section-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.box2 {
+    display: flex;
+    width: 1250px;
+    align-items: flex-start;
+}
+
+.left-box {
+    height: 520px;
+    flex-grow: 1;
+}
+
+.right-box {
+    height: 520px;
+    width: 500px;
+}
+
+.box3{
+    display: flex;
+    padding: 45px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-box {
+    width: 1245px;
+}
