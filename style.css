@@ -142,3 +142,77 @@ div button[type="button"] {
 .green-box {
     width: 1245px;
 }
+
+.debug .box-footer{
+    background-color: #23272a;
+}
+
+.debug .box4 {
+    height: 600px;
+}
+
+.debug .box-footer div.small-box{
+    background-color: #21b2aa;
+}
+
+.debug .box-footer .box4 .small-box:first-child{
+    background-color: #f08080;
+    width: 595px;
+    border: 3px dashed black;
+}
+
+.debug .box4 .small-box:nth-child(2),
+.debug .box4 .small-box:nth-child(3),
+.debug .box4 .small-box:nth-child(4) {
+    border: 3px dashed white;
+}
+
+.debug .footer {
+    background-color: #7effd4;
+}
+
+.debug .footer div.footer-logo,
+.debug .footer div.footer-bottone{
+    background-color: #ffb6c1;
+    border: 3px dashed black;
+}
+
+
+
+.box4 {
+    display: flex;
+    width: 1240px;
+    padding: 10px 0 40px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.box4:first-child{
+    flex-grow: 1;
+}
+
+.box4 .small-box:nth-child(2),
+.box4 .small-box:nth-child(3),
+.box4 .small-box:nth-child(4) {
+    width: 215px;
+}
+
+.footer {
+    width: 1250px;    
+    margin: 30px auto 0;
+    padding: 20px 0;
+
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.footer div.footer-logo, 
+.footer div.footer-bottone {
+    padding: 10px 15px;
+}
